@@ -8,6 +8,11 @@ resources:
   cpu: 1
   memory: 1Gi
   replicas: 1
+dependencies:
+  - name: "postgres"
+    type: "POSTGRESQL"
+    version: "15"
+    storage_size: "2Gi"
 env:
   - name: ADMIN_NAME
     value: admin
