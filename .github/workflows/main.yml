@@ -10,7 +10,7 @@ on:
 env:
   REGISTRY: ghcr.io/jekydan/zakygithub
   GH_REGISTRY: ghcr.io
-  IMAGE_NAME: absensi-laravel
+  IMAGE_NAME: zakygithub
   DOCKER_BUILDKIT: 1
 
 jobs:
