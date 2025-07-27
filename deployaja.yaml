@@ -38,8 +38,7 @@ env:
     value: pgsql
   - name: DB_SSLMODE
     value: disable
-#insert from github variable/secret
-  - name: ASSET_URL
+asset_url: zakygithub.deployaja.id
 
 envMap:
     domain_env: APP_URL
